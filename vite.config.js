@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
 
   // Ruta del proyecto en GitHub Pages.
-  base: "/Hito3-carrito-reacts/",
+  // Respaldo del Hito 3: base: "/Hito3-carrito-reacts/",
+  base: "/Hito4-APis-reacts/",
 });

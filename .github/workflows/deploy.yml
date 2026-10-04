@@ -1,8 +1,10 @@
 name: Publicar en GitHub Pages
 
 on:
-  push:
-    branches: [main]
+  # Respaldo del Hito 3: publicación automática con cada push a main.
+  # push:
+  #   branches: [main]
+  # Hito 4 usa una API local; publicar Pages queda como acción manual opcional.
   workflow_dispatch:
 
 permissions:

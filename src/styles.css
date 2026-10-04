@@ -367,6 +367,24 @@ h1 {
   font-size: 14px;
 }
 
+/* Hito 4: reutilizamos pizza-card y agregamos espacio para el detalle de una pizza. */
+.pizza-detail {
+  width: 100%;
+  max-width: 850px;
+}
+
+.pizza-detail > img {
+  height: clamp(220px, 35vw, 350px);
+}
+
+.pizza-detail h1 {
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+}
+
+.pizza-description {
+  line-height: 1.65;
+}
+
 
 /* Ajustes de las tarjetas y el carrito para celulares. */
 @media (max-width: 700px) {
